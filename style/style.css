@@ -27,6 +27,11 @@
   margin: 0 auto;
 }
 
+.anchor{
+  width: 0px;
+  height: 0px;
+}
+
 .head{
   display: flex;
   justify-content: space-between;
