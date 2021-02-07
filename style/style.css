@@ -1,28 +1,111 @@
 @font-face {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-display: swap;
-    src: url(../font/Roboto-Regular.woff) format("woff"),
-      url(../font/Roboto-Regular.woff2) format("woff2");
-  }
+  font-family: "Roboto";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../font/Roboto-Regular.woff) format("woff"),
+    url(../font/Roboto-Regular.woff2) format("woff2");
+}
   
-  @font-face {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-display: swap;
-    src: url(../font/Roboto-Medium.woff) format("woff"),
-      url(../font/Roboto-Medium.woff2) format("woff2");
-  }
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-display: swap;
+  src: url(../font/Roboto-Medium.woff) format("woff"),
+    url(../font/Roboto-Medium.woff2) format("woff2");
+}
 
 * {
-    font-family: "Roboto",sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  font-family: "Roboto",sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .container {
-    width: 100%;
-    max-width: 1232px;
-    margin: 0 auto;
-  }
+.container {
+  width: 100%;
+  max-width: 1232px;
+  margin: 0 auto;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.fh{
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #3D3B3C;
+}
+
+.fh a:active{
+  text-decoration: line-through;
+  color: #120D0E;
+  font-weight: 500;
+}
+hr{
+  color: #3D3B3C;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto{
+  width: 414px;
+  margin-top: 72px;
+}
+
+.img{
+  width: 100%;
+}
+
+.about-me{
+  margin: 72px 0px;
+}
+
+.about-me__name,
+.about-me__profession{
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 66px;
+  color: #120D0E;
+}
+
+.about-me__profession{
+  color: #bebebe;
+  margin-top: 8px;
+}
+
+.about-me__knowledge{
+  font-size: 22px;
+  font-weight: 26px;
+  color: #3D3B3C;
+  margin-top: 40px;
+}
+
+.about-me__dc{
+  display: flex;
+  margin-top: 72px;
+}
+
+.about-me__dc-dovnloadcv,
+.about-me__dc-contact{
+  width: 185px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A4576;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.about-me__dc-contact{
+  margin-left: 24px;
+}
