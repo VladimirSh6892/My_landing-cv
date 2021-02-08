@@ -45,7 +45,8 @@
   color: #3D3B3C;
 }
 
-.fh a:active{
+.fh:active,
+.fh:hover{
   text-decoration: line-through;
   color: #120D0E;
   font-weight: 500;
@@ -92,13 +93,13 @@ hr{
   margin-top: 40px;
 }
 
-.about-me__dc{
+.about-me__buttom{
   display: flex;
   margin-top: 72px;
 }
 
-.about-me__dc-dovnloadcv,
-.about-me__dc-contact{
+.about-me__buttom-dovnloadcv,
+.about-me__buttom-contact{
   width: 185px;
   height: 56px;
   display: flex;
@@ -109,8 +110,9 @@ hr{
   font-size: 24px;
   line-height: 28px;
   color: #fff;
+  text-decoration: none;
 }
 
-.about-me__dc-contact{
-  margin-left: 24px;
+.about-me__buttom-contact{
+  margin-left: 24px; 
 }
