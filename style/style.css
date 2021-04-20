@@ -28,16 +28,16 @@
 }
 
 a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ffffff;
+  color: #000000;
 }
 
 a:active {
-  color: #ffffff;
+  color: #000000;
 }
 
 .anchor {
@@ -413,7 +413,7 @@ hr {
 }
 
 .section-project {
-  background-color: #fafafa;
+  background-color: #fffefe;
 }
 
 .project-slider {
@@ -431,6 +431,10 @@ hr {
 
 .project-img {
   display: flex;
+}
+
+a.btn-pr {
+  color:rgba(250, 250, 250, 1)
 }
 
 .project-desc-button {
